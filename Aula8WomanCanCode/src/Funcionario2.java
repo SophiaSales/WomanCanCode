@@ -19,12 +19,12 @@ public class Funcionario2 {
 	   return cpf;
    }
    public int setSenha(int senha) {
-	   System.out.println(senha + "classe funcionario setsenha()");
+	   System.out.println(senha + " senha funcionario");
 	   senhaPassada = senha;
 		return senha;    
    }
    public Double setSalario(Double salario) {
-	   System.out.println(salario);
+	   System.out.println(salario +" salario");
 	   return salario;
    } 
    
